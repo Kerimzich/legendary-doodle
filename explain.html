@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="form" style="background-color:gray; width:500px; height:500px;">
+      <form action="#" id="form" class="form_body">
+        <h1 class="form_title">FORM</h1>
+        <div class="form_item">
+          
+        </div>
+      </form>
+    </div>
+
+    <script type="text/javascript">
+
+        const form = document.getElementById('form');
+        form.addEventListener('submit', formSend);
+
+        async function formSend(e){
+          e.preventDefault();
+
+          let error = formValidate(form);
+        }
+
+        function formValidate(form)
+        {
+          let error = 0;
+          let formReq = document.querySelectorAll('._req');
+
+          for (let index = 0; index < formReq.length; index++) {
+            const input = formReq[index];
+
+            formRemoveError(input);
+
+            if (input.classList.contains('_name')){
+              if (nameTest(input)) {
+                formAddError(input);
+                error++;
+              }
+            } else if (input.getAttribute("type") === "date") {
+                formAddError(input);
+                error++;
+            }
+            else {
+              if (input.value === ''){
+                formAddError(input);
+                error++;
+              }
+            }
+
+
+          }
+
+          function formAddError(form)
+          {
+            input.parent.Element.classList.add('_error');
+            input.classList.add('_error');
+          }
+          function formRemoveError(form)
+          {
+            input.parent.Element.classList.remove('_error');
+            input.classList.remove('_error');
+          }
+
+
+        }
+      });
+    </script>
+  </body>
+</html>

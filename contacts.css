@@ -1,0 +1,178 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+* ul {
+  list-style: none;
+}
+* a {
+  text-decoration: none;
+}
+
+.content {
+  margin-top: -200px;
+  width: 1855px;
+  height: 1000px;
+  background-image: url(koli.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: contain; */
+  background-size: cover;
+}
+.content p {
+  t-family: Borealis;
+  font-size: 4rem;
+  width: 300px;
+}
+
+main .contacts {
+  font-family: Arial;
+}
+main .contacts h4 {
+  width: 600px;
+  font-weight: lighter;
+}
+
+.omg {
+  width: 90px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.bookLink {
+  border: solid 1px #DB9A64;
+  border-radius: 26px;
+  font-size: 12px;
+  width: 160px;
+  text-align: center;
+}
+
+.collapse .bookLink:hover {
+  background-color: #DB9A64;
+}
+.collapse .bookLink:hover .nav-link:hover {
+  color: transparent;
+}
+.collapse .navText:hover {
+  text-shadow: 0 0 2px #fff;
+  /* Firefox 3.5+, Opera 9+, Safari 1+, Chrome, IE10 */
+  filter: progid:DXImageTransform.Microsoft.Glow(Color=#ffffff,Strength=1);
+}
+
+.social a {
+  text-align: center;
+  width: 23px;
+  height: 23px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #000;
+}
+
+.instagram :hover {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.twitter :hover {
+  background: #1DA1F2;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.youtube :hover {
+  background: #FF0000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subscription {
+  border-radius: 50px;
+  height: 50px;
+  width: 382px;
+  margin-bottom: -100px;
+}
+
+.bookInput {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-bottom: 3vh;
+}
+
+.textInform {
+  width: 15vw;
+}
+
+.dateInform {
+  width: 11vw;
+}
+
+INPUT[type=text] {
+  font-size: 2vh;
+  color: white;
+}
+
+INPUT[type=date] {
+  color-scheme: dark;
+  font-size: 2vh;
+  color: white;
+}
+
+INPUT[type=time] {
+  color-scheme: dark;
+  font-size: 2vh;
+  color: white;
+}
+
+.button {
+  background-color: #DB9A64;
+  height: 44px;
+  width: 80px;
+  border-radius: 28px;
+  font-family: a_FuturaRound;
+  font-size: 12px;
+  color: white;
+  position: relative;
+  top: -33px;
+  left: 299px;
+}
+
+.bookButton {
+  height: 30px;
+  background-color: white;
+  border-radius: 28px;
+  font-family: a_FuturaRound;
+  font-size: 15px;
+  color: #DB9A64;
+  position: relative;
+  top: -13px;
+}
+
+.omg {
+  width: 90px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.carousel-item {
+  margin-bottom: -35px;
+}
+
+.house {
+  border-radius: 50px;
+}
+
+.bookLink {
+  border: solid 1px #DB9A64;
+  border-radius: 26px;
+  font-size: 12px;
+  width: 160px;
+  text-align: center;
+}

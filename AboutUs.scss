@@ -1,0 +1,290 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  ul
+  {
+    list-style: none;
+  }
+  a
+  {
+    text-decoration: none;
+  }
+}
+.reviews{input::placeholder
+{
+  padding: 100px;
+  color:black;
+  font-size: 18px;
+}}
+.reviews p
+{
+  margin-top: 300px;
+  background-color: white;
+  font-family: Corinthia;
+  font-size: 5rem;
+  padding-top: 50px;
+}
+INPUT[type="text"]
+{
+  border: 1px solid black;
+  width: 400px;
+  height: 50px;
+  color: black;
+}
+.reviews .content
+{
+  margin-top: 50px;
+}
+
+.submit
+{
+  border-radius:5px;
+  width:100px;
+}
+textarea
+{
+  width: 400px;
+  margin-top: 20px;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+  padding: 20px;
+  font-family: Calibri Light;
+  font-size: 20px;
+}
+.history
+{
+  margin-top: -200px;
+  width:1855px;
+  height: 1000px;
+  background-image: url(itaREST.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: contain; */
+  background-size: cover;
+  p
+  {
+    font-family: AGBengaly;
+    font-size: 5rem;
+  }
+}
+.topicBG
+{
+  background-image: url(topicBG.jpg);
+  width: 1600px;
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.topic
+{
+margin-bottom: 100px;
+  background-color: black;
+  margin-top: -800px;
+  opacity: 100%;
+
+  .paragraph
+  {
+    border: #b4975a solid 1px;
+  }
+  .header p
+  {
+    font-family: Corinthia;
+    font-size: 4.5rem;
+    color:#b4975a;
+  }
+  p
+  {
+    color:white;
+    font-family: Calibri Light;
+    font-size: 1.2rem;
+  }
+  .uderHeader
+  {
+    margin-top: -100px;
+  }
+
+}
+
+.inner
+{
+  box-sizing: border-box;
+  display: block;
+}
+
+button
+{
+  background-color: #db9a64;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.omg
+{
+  width: 90px;
+  height: 60px;
+  border-radius: 5px;
+}
+.bookLink
+{
+  border: solid 1px #DB9A64;
+  border-radius: 26px;
+  font-size: 12px;
+  width: 160px;
+  text-align: center;
+}
+.collapse{
+  .bookLink:hover
+  {
+    background-color: #DB9A64;
+    .nav-link:hover
+    {
+      color: transparent;
+    }
+  }
+  .navText:hover
+  {
+    text-shadow: 0 0 2px #fff; /* Firefox 3.5+, Opera 9+, Safari 1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Glow(Color=#ffffff,Strength=1);
+  }
+
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 23px;
+    height: 23px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    color: #000;
+}
+.instagram :hover {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.twitter :hover {
+    background: #1DA1F2;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.youtube  :hover {
+    background: #FF0000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subscription
+{
+  border-radius: 50px;
+  height: 50px;
+  width: 382px;
+  margin-bottom: -100px;
+}
+.bookInput
+{
+  background-color: transparent;
+  border: 1px solid white;
+  margin-bottom: 3vh;
+}
+.textInform
+{
+  width: 15vw;
+}
+.dateInform
+{
+  width: 11vw;
+}
+INPUT[type="text"]
+{
+  font-size: 2vh;
+  color: white;
+}
+INPUT[type="date"]
+{
+  color-scheme: dark;
+  font-size: 2vh;
+  color: white;
+}
+INPUT[type="time"]
+{
+  color-scheme: dark;
+  font-size: 2vh;
+  color: white;
+}
+.button
+{
+  background-color: #DB9A64;
+  height: 44px;
+  width: 80px;
+  border-radius: 28px;
+  font-family: a_FuturaRound;
+  font-size: 12px;
+  color:white;
+  position:relative;
+  top:-33px;
+  left: 299px;
+}
+.bookButton
+{
+  height: 30px;
+  background-color: white;
+  border-radius: 28px;
+  font-family: a_FuturaRound;
+  font-size: 15px;
+  color:#DB9A64;
+  position:relative;
+  top:-13px;
+}
+
+.omg
+{
+  width: 90px;
+  height: 60px;
+  border-radius: 5px;
+}
+.carousel-item
+{
+  margin-bottom: -35px;
+}
+.house
+{
+  border-radius: 50px;
+}
+.bookLink
+{
+  border: solid 1px #DB9A64;
+  border-radius: 26px;
+  font-size: 12px;
+  width: 160px;
+  text-align: center;
+}
